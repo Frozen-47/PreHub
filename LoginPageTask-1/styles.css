@@ -56,3 +56,30 @@ content:'';flex:1;
 border:1px solid #e8e8e8;display:flex;align-items:center;justify-content:center;text-decoration:none;color:#555;font-size:1rem;
 transition:border-color .2s,color .2s}
 .social-btn:hover{border-color:#111;color:#111}
+
+.error-text {
+  color: #d93025;
+  font-size: 0.75rem;
+  margin-top: 6px;
+  display: none;
+}
+
+.input-error {
+  border-bottom: 1px solid #d93025 !important;
+}
+
+.auth-message {
+  font-size: 0.85rem;
+  text-align: center;
+  margin-top: 15px;
+  font-weight: 500;
+  display: none;
+}
+
+.auth-success {
+  color: #188038;
+}
+
+.auth-fail {
+  color: #d93025;
+}

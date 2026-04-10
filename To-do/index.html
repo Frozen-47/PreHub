@@ -34,12 +34,16 @@
     ul {
         list-style-type: none;
         padding: 0;
+        margin-top: 20px;
+        display: inline-block
     }
     li {
         padding: 10px;
         background-color: #f8f9fa;
         margin-bottom: 5px;
         border: 1px solid #ddd;
+        border-radius: 5px;
+        display: inline-block;
     }
 
     </style>
@@ -49,9 +53,11 @@
 <h1>To-Do APP</h1>
 <p>Task: <input type="text" id="taskInput" placeholder="Enter a task"></p>
 <button onclick="addTask()">Add Task</button>
+<button onclick="clearTasks()">Clear Tasks</button>
+<br>
 <ul id="taskList">
 </ul>
-<button onclick="clearTasks()">Clear Tasks</button>
+
 <script src="script.js"></script>
 </body>
 </html>

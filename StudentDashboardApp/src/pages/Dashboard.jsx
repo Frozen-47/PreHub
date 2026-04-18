@@ -14,10 +14,10 @@ export default function Dashboard() {
       <div className="dashboard-layout">
         <aside className="dashboard-sidebar">
           <NavLink to="/dashboard/profile" className={({ isActive }) => `dash-link${isActive ? " active" : ""}`}>
-            👤 Profile
+            Profile
           </NavLink>
           <NavLink to="/dashboard/settings" className={({ isActive }) => `dash-link${isActive ? " active" : ""}`}>
-            ⚙️ Settings
+            Settings
           </NavLink>
         </aside>
 

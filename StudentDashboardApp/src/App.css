@@ -16,7 +16,7 @@ body {
   padding: 30px 20px;
 }
 
-/* NAVBAR */
+
 .navbar {
   background-color: #2c3e50;
   padding: 14px 24px;
@@ -53,7 +53,7 @@ body {
   text-decoration: underline;
 }
 
-/* PAGE HEADER */
+
 .page-header {
   margin-bottom: 24px;
 }
@@ -85,32 +85,6 @@ body {
   font-size: 1rem;
 }
 
-.stats-row {
-  display: flex;
-  gap: 16px;
-  margin: 28px 0;
-}
-
-.stat-card {
-  flex: 1;
-  background: white;
-  border: 1px solid #ddd;
-  border-radius: 6px;
-  padding: 20px;
-  text-align: center;
-}
-
-.stat-card .stat-num {
-  font-size: 2rem;
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-.stat-card .stat-label {
-  font-size: 0.85rem;
-  color: #888;
-  margin-top: 4px;
-}
 
 .home-cards {
   display: grid;
@@ -149,7 +123,7 @@ body {
   color: #666;
 }
 
-/* STUDENTS GRID */
+
 .students-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -229,7 +203,6 @@ body {
   text-align: right;
 }
 
-/* STUDENT DETAILS */
 .back-btn {
   background: white;
   border: 1px solid #ddd;
@@ -311,7 +284,7 @@ body {
   font-weight: 500;
 }
 
-/* DASHBOARD */
+
 .dashboard-layout {
   display: flex;
   gap: 20px;
@@ -363,7 +336,7 @@ body {
   margin-bottom: 8px;
 }
 
-/* PROFILE & SETTINGS */
+
 .sub-page {
   background: white;
   border: 1px solid #ddd;

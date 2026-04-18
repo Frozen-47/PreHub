@@ -12,34 +12,18 @@ export default function Home() {
         <p>22CT Batch — Student Records & Profiles</p>
       </div>
 
-      <div className="stats-row">
-        <div className="stat-card">
-          <span className="stat-num">{students.length}</span>
-          <span className="stat-label">Total Students</span>
-        </div>
-        <div className="stat-card">
-          <span className="stat-num">{bloodGroups}</span>
-          <span className="stat-label">Blood Group Types</span>
-        </div>
-        <div className="stat-card">
-          <span className="stat-num">{mediums}</span>
-          <span className="stat-label">Medium of Study</span>
-        </div>
-      </div>
-
       <div className="home-cards" style={{marginTop: "40px"}}>
         <Link to="/students" className="home-card">
-          <span className="icon">🎓</span>
           <h3>All Students</h3>
           <p>Browse all {students.length} student records with full profiles.</p>
         </Link>
         <Link to="/dashboard/profile" className="home-card">
-          <span className="icon">👤</span>
+          
           <h3>Profile</h3>
           <p>Update personal info and contact preferences.</p>
         </Link>
         <Link to="/dashboard/settings" className="home-card">
-          <span className="icon">⚙️</span>
+          
           <h3>Settings</h3>
           <p>Configure notifications and system preferences.</p>
         </Link>

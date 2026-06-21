@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite --port 5174",
     "build": "tsc -b && vite build",
+    "postbuild": "node copy-projects.js",
     "preview": "vite preview",
     "install-all": "npm install --prefix projects/StudentDashboardApp && npm install --prefix projects/ProductSearchCardApp && npm install --prefix projects/Form && npm install --prefix projects/TailWind_CSS && npm install --prefix projects/FetchingThroughReact",
     "build-all": "npm run build --prefix projects/StudentDashboardApp && npm run build --prefix projects/ProductSearchCardApp && npm run build --prefix projects/Form && npm run build --prefix projects/TailWind_CSS && npm run build --prefix projects/FetchingThroughReact",

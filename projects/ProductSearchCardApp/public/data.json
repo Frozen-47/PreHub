@@ -1,0 +1,22 @@
+[
+  { "id": 1, "name": "iPhone 14", "price": 70000 },
+  { "id": 2, "name": "Samsung Galaxy S23", "price": 65000 },
+  { "id": 3, "name": "OnePlus 11", "price": 60000 },
+  { "id": 4, "name": "Realme GT", "price": 40000 },
+  { "id": 5, "name": "Xiaomi 13 Pro", "price": 55000 },
+  { "id": 6, "name": "Vivo V27 Pro", "price": 35000 },
+  { "id": 7, "name": "OPPO Reno 10", "price": 32000 },
+  { "id": 8, "name": "Nothing Phone 2", "price": 44000 },
+  { "id": 9, "name": "Google Pixel 7a", "price": 47000 },
+  { "id": 10, "name": "Motorola Edge 40", "price": 29000 },
+  { "id": 11, "name": "iQOO 11", "price": 58000 },
+  { "id": 12, "name": "Redmi Note 12 Pro", "price": 22000 },
+  { "id": 13, "name": "Samsung Galaxy A54", "price": 38000 },
+  { "id": 14, "name": "OnePlus Nord CE 3", "price": 26000 },
+  { "id": 15, "name": "Realme Narzo 60", "price": 18000 },
+  { "id": 16, "name": "iPhone 13", "price": 59000 },
+  { "id": 17, "name": "POCO F5 Pro", "price": 42000 },
+  { "id": 18, "name": "Vivo T2 Pro", "price": 24000 },
+  { "id": 19, "name": "Asus ROG Phone 7", "price": 74000 },
+  { "id": 20, "name": "Samsung Galaxy M34", "price": 19000 }
+]

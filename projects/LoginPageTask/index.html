@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+  <div class="card">
+    <h1>Login</h1>
+
+    <form id="loginForm">
+      <div class="field">
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="your email" />
+        <div class="error-text" id="emailError"></div>
+      </div>
+
+      <div class="field">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="your password" />
+        <div class="error-text" id="passwordError"></div>
+        <a href="#" class="forgot">Forgot password?</a>
+      </div>
+
+      <button type="submit" class="btn">Login</button>
+      
+      <div class="auth-message" id="authMessage"></div>
+    </form>
+
+    <div class="divider"><span>or continue with</span></div>
+
+    <div class="social">
+      <a href="#" class="social-btn google" title="Google">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="#" class="social-btn facebook" title="Facebook">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="#" class="social-btn x" title="X">
+        <i class="fab fa-x-twitter"></i>
+      </a>
+    </div>
+
+    <p class="footer">Don't have an account? <a href="#">Sign up</a></p>
+  </div>
+  <div class="hint-box">
+    <h3>Valid password</h3>
+    <p>Email : sabareesh@gmail.com</p>
+    <p>Password : Sabareesh123</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -8,7 +8,9 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "install-all": "npm install --prefix projects/StudentDashboardApp && npm install --prefix projects/ProductSearchCardApp && npm install --prefix projects/Form && npm install --prefix projects/TailWind_CSS && npm install --prefix projects/FetchingThroughReact",
-    "build-all": "npm run build --prefix projects/StudentDashboardApp && npm run build --prefix projects/ProductSearchCardApp && npm run build --prefix projects/Form && npm run build --prefix projects/TailWind_CSS && npm run build --prefix projects/FetchingThroughReact"
+    "build-all": "npm run build --prefix projects/StudentDashboardApp && npm run build --prefix projects/ProductSearchCardApp && npm run build --prefix projects/Form && npm run build --prefix projects/TailWind_CSS && npm run build --prefix projects/FetchingThroughReact",
+    "predeploy": "npm run build-all && npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "lucide-react": "^0.577.0",
@@ -25,6 +27,7 @@
     "eslint": "^9.39.4",
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.5.2",
+    "gh-pages": "^6.3.0",
     "globals": "^17.4.0",
     "postcss": "^8.5.8",
     "tailwindcss": "^3.4.19",
